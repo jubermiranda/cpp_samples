@@ -1,0 +1,14 @@
+# Build artifacts:
+**/*.o
+**/bin/
+**/build/
+
+# Executables
+**/a.out
+
+# Dependency Management
+**/vendor/
+
+# Editor
+**/*.swp
+

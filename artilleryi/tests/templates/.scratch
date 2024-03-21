@@ -1,0 +1,8 @@
+Velocity = 200.0; // initial velocity of 200 ft/sec
+Gravity = 32.2; // gravity for distance calculation
+
+// in_angle is the angle the player has entered, converted to radians.
+time_in_air = (2.0 * Velocity * sin(in_angle)) / Gravity;
+distance = round((Velocity * cos(in_angle)) * time_in_air);
+
+
